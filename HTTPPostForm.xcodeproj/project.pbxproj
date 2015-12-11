@@ -13,6 +13,7 @@
 		3C93A4EE1C1A95D000B50A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C93A4EC1C1A95D000B50A68 /* Main.storyboard */; };
 		3C93A4F01C1A95D000B50A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C93A4EF1C1A95D000B50A68 /* Assets.xcassets */; };
 		3C93A4F31C1A95D000B50A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C93A4F11C1A95D000B50A68 /* LaunchScreen.storyboard */; };
+		3C93A4FC1C1A95EE00B50A68 /* RCRHTTPFormPostFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C93A4FB1C1A95EE00B50A68 /* RCRHTTPFormPostFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3C93A4EF1C1A95D000B50A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C93A4F21C1A95D000B50A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C93A4F41C1A95D000B50A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C93A4FA1C1A95EE00B50A68 /* RCRHTTPFormPostFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRHTTPFormPostFileManager.h; sourceTree = "<group>"; };
+		3C93A4FB1C1A95EE00B50A68 /* RCRHTTPFormPostFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRHTTPFormPostFileManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		3C93A4E21C1A95D000B50A68 /* HTTPPostForm */ = {
 			isa = PBXGroup;
 			children = (
+				3C93A4FA1C1A95EE00B50A68 /* RCRHTTPFormPostFileManager.h */,
+				3C93A4FB1C1A95EE00B50A68 /* RCRHTTPFormPostFileManager.m */,
 				3C93A4E61C1A95D000B50A68 /* AppDelegate.h */,
 				3C93A4E71C1A95D000B50A68 /* AppDelegate.m */,
 				3C93A4E91C1A95D000B50A68 /* ViewController.h */,
@@ -152,6 +157,7 @@
 				3C93A4EB1C1A95D000B50A68 /* ViewController.m in Sources */,
 				3C93A4E81C1A95D000B50A68 /* AppDelegate.m in Sources */,
 				3C93A4E51C1A95D000B50A68 /* main.m in Sources */,
+				3C93A4FC1C1A95EE00B50A68 /* RCRHTTPFormPostFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
